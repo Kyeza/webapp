@@ -1,0 +1,59 @@
+body {
+	font-size: 18px;
+}
+
+h1 {
+	font-size: 70px;
+}
+
+h2 {
+	font-size: 50px;
+}
+
+h3 {
+	font-size: 30px;
+}
+
+@media (min-width: 768px) {
+  ul.navbar-nav.navbar-center {
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+  }
+}
+
+div.thumbnail {
+	width: 100%;
+	margin: 0px;
+	padding: 15px;
+	border: none;
+	background-color: transparent;
+}
+
+div.caption {
+	width: 100%;
+	padding: 20px;
+	border: none;
+	text-align: center;
+	background-color: transparent;
+}
+
+div.thumbnail, img {
+	border-radius: 5px;
+}
+
+
+ul.myfooter, li, a:link {
+	color: darkgrey;
+	list-style: none;
+	font-size: 14.8px;
+}
+
+ul.myfooter, h4 {
+	color: grey;
+}
+
+
+
+
+
